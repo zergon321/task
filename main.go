@@ -39,6 +39,9 @@ func main() {
 	case "application/json":
 		products, errs, err = readJSON(
 			inputFile, channelBufferSize)
+
+	default:
+		panic("cannot process the file")
 	}
 
 	maxPriceProduct, maxRatingProduct,
