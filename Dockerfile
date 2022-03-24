@@ -2,7 +2,7 @@
 # occupy as low disk space as possible.
 #
 # For the optimization by building speed
-# see my article on Medium:
+# please see my article on Medium:
 # https://medium.com/@maximgradan/microservices-with-go-modules-9fa1e82c35b8
 FROM golang:1.17.8-alpine3.15 AS builder
 COPY . /go/src/github.com/zergon321/task
