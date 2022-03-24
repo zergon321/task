@@ -14,6 +14,12 @@ import (
 // This file demonstrates the alternative
 // version of the data processing pipeline
 // without utilizing channels.
+//
+// I decided not to utilize this approach
+// because it leads to a lot of code duplication.
+// I could get rid of it by using iterator
+// or stretegy pattern, but the channels
+// usage is more idiomatioc for Golang.
 
 // processCSV processes the CSV file
 // line by line and returns the max
